@@ -1,0 +1,8 @@
+.el-carousel, .el-carousel__container {
+  height: 100% !important;
+}
+
+.el-carousel__indicator.is-active button {
+  background: #409EFF !important;
+}
+

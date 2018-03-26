@@ -18,8 +18,8 @@ import {
   // FormItem,
   // Button,
   // DatePicker,
-  // Carousel,
-  // CarouselItem,
+  Carousel,
+  CarouselItem,
   // Menu,
   // Submenu,
   // MenuItem,
@@ -41,7 +41,7 @@ import {
   // Checkbox,
   // CheckboxButton,
   // CheckboxGroup
-} from 'element-ui'
+} from 'element-ui';
 
 // Vue.use(Input);
 // Vue.use(Select);
@@ -54,8 +54,8 @@ import {
 // Vue.use(FormItem);
 // Vue.use(Button);
 // Vue.use(DatePicker);
-// Vue.use(Carousel);
-// Vue.use(CarouselItem);
+Vue.use(Carousel);
+Vue.use(CarouselItem);
 // Vue.use(Menu);
 // Vue.use(Submenu);
 // Vue.use(MenuItem);
@@ -86,6 +86,3 @@ Vue.use(Tag);
 // mint-ui
 
 // Vue.component(DatetimePicker.name, DatetimePicker)
-
-
-
